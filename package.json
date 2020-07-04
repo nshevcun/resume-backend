@@ -1,0 +1,41 @@
+{
+  "name": "natalia-shevcun-contact-form",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Natalia Shevcun's back-end app for a simple contact form",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "dev": "nodemon -r esm src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nshevcun/natalia-shevcun-contact-form.git"
+  },
+  "keywords": [
+    "contact",
+    "form"
+  ],
+  "author": "Natalia Shevcun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nshevcun/natalia-shevcun-contact-form/issues"
+  },
+  "homepage": "https://gitlab.com/nshevcun/natalia-shevcun-contact-form#readme",
+  "dependencies": {
+    "argon2": "^0.26.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^7.0.3",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
